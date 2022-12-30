@@ -1,0 +1,217 @@
+  * {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  body {
+    background: #E2E9FC;
+    font-family: Montserrat;
+    color: #570861;
+  }
+  header {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header nav {
+    display: flex;
+    position: fixed;
+    width: 80%;
+    height: 50px;
+    margin: 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  header nav ul li {
+    margin-left: 40px;
+  }
+  header nav ul li a {
+    transition: all ease 0.3s;
+  }
+  header nav ul li a:hover,
+  header nav ul li a.active {
+    padding: 0 0 5px 0;
+    border-bottom: 3px solid #570861;
+    transform: translateY(-10%);
+  }
+  header nav a {
+    text-decoration: none;
+    color: #570861;
+  }
+  header nav a.logo {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .navigation {
+    position: fixed;
+    right: 6%;
+    list-style: none;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .navigation li {
+    width: 10px;
+    height: 10px;
+    border: 2.5px solid #570861;
+    border-radius: 50%;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .navigation li:hover,
+  .navigation li.selected {
+    transform: scale(1.4);
+  }
+  .fully-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  #manager h2 {
+    margin-bottom: 70px;
+  }
+  #manager .card {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 30px;
+  }
+  #manager .card-img {
+    width: 357px;
+    height: 399px;
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-top-left-radius: 30px;
+  }
+  #manager .card-info {
+    width: 499px;
+    height: 300px;
+    background-color: #b8c2df;
+    border-top-right-radius: 30px;
+  }
+  #manager .card-info li {
+    list-style: none;
+    padding: 15px;
+    background-color: #E2E9FC;
+    margin: 20px 20px;
+    border-radius: 7px;
+  }
+  #manager .card-info li span {
+    font-weight: 600;
+    margin-right: 15px;
+  }
+  #engineer .container,
+  #intern .container {
+    width: 80%;
+  }
+  #engineer h2,
+  #intern h2 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #engineer .row,
+  #intern .row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #engineer .card,
+  #intern .card {
+    width: 300px;
+    height: 373px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #engineer .card-img,
+  #intern .card-img {
+    width: 90%;
+    height: 50%;
+    background-color: #570861;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  #engineer .card-body,
+  #intern .card-body {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+  }
+  #engineer .card-body .card-title,
+  #intern .card-body .card-title {
+    font-weight: 600;
+    padding: 5px;
+  }
+  #engineer .card-info,
+  #intern .card-info {
+    width: 100%;
+    height: 100%;
+  }
+  #engineer .card-info li,
+  #intern .card-info li {
+    list-style: none;
+    padding: 6px;
+    margin: 10px 10px;
+    border-radius: 5px;
+  }
+  #engineer .card-info li span,
+  #intern .card-info li span {
+    margin-right: 5px;
+  }
+  #engineer {
+    background: #fff;
+  }
+  #engineer .card-title {
+    color: #E2E9FC;
+  }
+  #engineer .card {
+    background-color: #767CC5;
+  }
+  #engineer .card .card-img {
+    background-position: center;
+    background-size: contain;
+  }
+  #engineer .card .card-info {
+    background-color: #767CC5;
+  }
+  #engineer .card .card-info li {
+    background-color: #E2E9FC;
+  }
+  #intern .card {
+    background-color: #949FFE;
+  }
+  #intern .card .card-img {
+    background-position: top;
+    background-size: cover;
+  }
+  #intern .card li {
+    background-color: #fff;
+  }
