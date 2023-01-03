@@ -5,7 +5,7 @@
   }
   body {
     background: #E2E9FC;
-    font-family: Montserrat;
+    font-family: Arial, Helvetica, sans-serif;
     color: #570861;
   }
   header {
@@ -38,7 +38,7 @@
   header nav ul li a:hover,
   header nav ul li a.active {
     padding: 0 0 5px 0;
-    border-bottom: 3px solid #570861;
+    border-bottom: 3px solid lightsalmon;
     transform: translateY(-10%);
   }
   header nav a {
@@ -59,7 +59,7 @@
   .navigation li {
     width: 10px;
     height: 10px;
-    border: 2.5px solid #570861;
+    border: 2.5px solid lightsalmon;
     border-radius: 50%;
     margin-top: 20px;
     cursor: pointer;
@@ -95,11 +95,9 @@
     margin-top: 30px;
   }
   #manager .card-img {
-    width: 357px;
+    width: 100px;
     height: 399px;
-    background-color: #fff;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: contain;
     border-top-left-radius: 30px;
   }
@@ -151,7 +149,6 @@
   #intern .card-img {
     width: 90%;
     height: 50%;
-    background-color: #570861;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }

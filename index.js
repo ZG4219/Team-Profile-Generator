@@ -7,7 +7,7 @@ const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 
 //To import helper function
-const {createTeams} = require('./src/Teams')
+const {createTeams} = require('./src/Team')
 
 //To initiallize the application
 function init(){

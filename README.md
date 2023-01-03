@@ -1,12 +1,16 @@
 # Team Profile Generator
-An app that generates a team profile
+ Generating a webpage that displays my team's basic info to have quick access to their emails and GitHub profiles.
 
 ## Tools Used 
-1. Node.js
-2. HTML
-3. CSS
-4. JavaScript
-5. Jest
+- Node.js
+- HTML
+- CSS
+- JavaScript
+- Jest
+- inquirer packages
 
 ## Screenshots
 
+## Github link
+
+## Video Walkthrough
