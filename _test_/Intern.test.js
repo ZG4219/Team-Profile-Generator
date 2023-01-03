@@ -43,7 +43,7 @@ test('should get the questions for all interns', () => {
     {
         type : 'input',
         name : 'email',
-        message: 'Enter you email address'
+        message: 'Enter your email address'
 
     },
     {

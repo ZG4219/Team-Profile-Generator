@@ -40,7 +40,7 @@ const zoe = new Employee('zoe',11332567,'zoe@gmail.com');
       {
           type : 'input',
           name : 'email',
-          message: 'Enter you email address'
+          message: 'Enter your email address'
   
       }  
   ]
