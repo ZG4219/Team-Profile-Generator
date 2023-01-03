@@ -12,5 +12,6 @@
 ## Screenshots
 
 ## Github link
+https://github.com/ZG4219/Team-Profile-Generator
 
 ## Video Walkthrough
