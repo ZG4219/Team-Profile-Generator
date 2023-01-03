@@ -2,10 +2,11 @@
  Generating a webpage that displays my team's basic info to have quick access to their emails and GitHub profiles.
 
 ## Tools Used 
-- Node.js
+
 - HTML
 - CSS
 - JavaScript
+- Node.js
 - Jest
 - inquirer packages
 
