@@ -20,3 +20,4 @@
 https://github.com/ZG4219/Team-Profile-Generator
 
 ## Video Walkthrough
+https://drive.google.com/file/d/1e2kPWhM8AAS_V3RpMEhBp3jd075r-oG8/view
